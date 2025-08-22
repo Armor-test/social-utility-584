@@ -1,0 +1,35 @@
+# CODEOWNERS file for social-utility-584
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reliability @Armor-test/squad-performance @Armor-test/squad-ux
+
+# Directory ownership
+/extensions/ @Armor-test/unit-devops @Armor-test/squad-research @Armor-test/squad-apps
+/services/ @Armor-test/dept-release @Armor-test/unit-governance @Armor-test/squad-database
+/dist/ @Armor-test/squad-performance @Armor-test/dept-reporting
+/components/ @Armor-test/dept-identity @Armor-test/grp-payments
+/styles/ @Armor-test/squad-performance @Armor-test/squad-api @Armor-test/squad-database
+/pkg/ @Armor-test/team-logging @Armor-test/squad-ml
+/common/ @Armor-test/dept-api @Armor-test/squad-ux
+/controllers/ @Armor-test/grp-ui @Armor-test/squad-database @Armor-test/squad-research
+/auth/ @Armor-test/dept-api @Armor-test/team-logging @Armor-test/unit-cloud
+/tools/ @Armor-test/squad-tooling @Armor-test/squad-api
+/core/ @Armor-test/dept-billing @Armor-test/squad-tooling @Armor-test/dept-test
+/docs/ @Armor-test/squad-database @Armor-test/dept-test
+/third_party/ @Armor-test/squad-cloud @Armor-test/squad-product
+
+# File type ownership
+*.rs @Armor-test/dept-reliability @Armor-test/dept-billing
+*.sh @Armor-test/dept-reliability @Armor-test/dept-security
+*.sql @Armor-test/squad-mobile @Armor-test/squad-product
+*.tf @Armor-test/squad-search @Armor-test/squad-database
+*.css @Armor-test/dept-logging @Armor-test/grp-api
+*.toml @Armor-test/squad-reporting @Armor-test/squad-payments
+*.c @Armor-test/dept-billing @Armor-test/squad-qa
+*.graphql @Armor-test/unit-devops @Armor-test/dept-notifications @Armor-test/dept-release
+*.proto @Armor-test/team-frontend @Armor-test/unit-design @Armor-test/grp-reporting
+*.lock @Armor-test/dept-reporting @Armor-test/dept-ui @Armor-test/squad-research
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
